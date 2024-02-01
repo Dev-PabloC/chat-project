@@ -1,0 +1,28 @@
+POST http://localhost:4000/api/users
+Content-Type: application/json
+
+{
+    "username": "kiro1",
+    "email": "kiro1@gmail.com",
+    "password": "123456"
+}
+###
+PATCH http://localhost:4000/api/users
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImVjMjQxOTA2LTcyZjUtNDAzYi1hMjI2LTYwOTVmOTgzYzFkMiIsImVtYWlsIjoia2lyb0BnbWFpbC5jb20iLCJpYXQiOjE3MDY4MTgyOTMsImV4cCI6MTcwNjkwNDY5M30.60tVwvifNixSXI3VGBwktb95WXX0OTt_TAIHA9XlyTY
+
+{
+    "username": "kirosama"
+}
+###
+GET http://localhost:4000/api/users
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImVjMjQxOTA2LTcyZjUtNDAzYi1hMjI2LTYwOTVmOTgzYzFkMiIsImVtYWlsIjoia2lyb0BnbWFpbC5jb20iLCJpYXQiOjE3MDY4MTgyOTMsImV4cCI6MTcwNjkwNDY5M30.60tVwvifNixSXI3VGBwktb95WXX0OTt_TAIHA9XlyTY
+
+{
+    "email": "kiro1@gmail.com"
+}
+###
+DELETE http://localhost:4000/api/users
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImVjMjQxOTA2LTcyZjUtNDAzYi1hMjI2LTYwOTVmOTgzYzFkMiIsImVtYWlsIjoia2lyb0BnbWFpbC5jb20iLCJpYXQiOjE3MDY4MTgyOTMsImV4cCI6MTcwNjkwNDY5M30.60tVwvifNixSXI3VGBwktb95WXX0OTt_TAIHA9XlyTY

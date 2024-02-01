@@ -1,0 +1,8 @@
+{
+    "cody.autocomplete.languages": {
+        "*": true
+    },
+    "cody.chat.preInstruction": "Answer all my questions in portuguese",
+    "cody.autocomplete.advanced.provider": "fireworks",
+    "cody.autocomplete.enabled": true
+}
